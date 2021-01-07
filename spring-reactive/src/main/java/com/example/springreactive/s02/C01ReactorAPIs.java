@@ -103,13 +103,13 @@ public class C01ReactorAPIs {
     }
 
     private static void errorHandling() {
-        Flux<String> throwExceptionFlux = Flux.range(1, 10).map(i -> {
-            if (i > 5) {
-                throw (new RuntimeException("Something wrong"));
-            }
-            return "item #" + i;
-        });
-        subscribeFlux("throwExceptionFlux", throwExceptionFlux);
+//        Flux<String> throwExceptionFlux = Flux.range(1, 10).map(i -> {
+//            if (i > 5) {
+//                throw (new RuntimeException("Something wrong"));
+//            }
+//            return "item #" + i;
+//        });
+//        subscribeFlux("throwExceptionFlux", throwExceptionFlux);
 
         Flux<String> errorFlux = Flux.range(1, 10).flatMap(i -> {
             if (i > 5) {
@@ -121,14 +121,14 @@ public class C01ReactorAPIs {
     }
 
     public static void main(String[] args) {
-        createFluxFromExistingData();
-        createMonoFromExistingData();
-        createFluxProgrammatically();
-        createMonoAsync();
-        mapVsFlatMap();
-        monoFluxInterchange();
-        useThenForFlow();
-        zipMonoOrFlux();
+//        createFluxFromExistingData();
+//        createMonoFromExistingData();
+//        createFluxProgrammatically();
+//        createMonoAsync();
+//        mapVsFlatMap();
+//        monoFluxInterchange();
+//        useThenForFlow();
+//        zipMonoOrFlux();
         errorHandling();
     }
 

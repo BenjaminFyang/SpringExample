@@ -35,7 +35,7 @@ public final class InMemoryDataSource {
         return book;
     }
 
-    private static Optional<Book> findBookById(String isbn) {
+    public static Optional<Book> findBookById(String isbn) {
         return Optional.ofNullable(booksMap.get(isbn));
     }
 
