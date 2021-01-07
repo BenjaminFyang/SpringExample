@@ -3,18 +3,20 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>SpringCloud-Example</artifactId>
-        <groupId>com.joyobpo</groupId>
+        <artifactId>seata-samples</artifactId>
+        <groupId>io.seata</groupId>
         <version>1.1.0</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springcloud-eureka-seata</artifactId>
     <packaging>pom</packaging>
-
     <modules>
         <module>eureka</module>
+        <module>account</module>
+        <module>bussiness</module>
+        <module>order</module>
+        <module>storage</module>
     </modules>
 
     <dependencyManagement>

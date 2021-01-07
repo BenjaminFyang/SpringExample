@@ -2,15 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.spring.cloud</groupId>
-    <artifactId>example</artifactId>
+    <groupId>io.seata</groupId>
+    <artifactId>seata-samples</artifactId>
     <packaging>pom</packaging>
     <version>1.1.0</version>
-    <name>example ${project.version}</name>
+    <name>seata-samples ${project.version}</name>
+
     <properties>
         <seata.version>1.4.0</seata.version>
-
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- Maven properties -->
