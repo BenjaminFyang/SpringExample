@@ -15,8 +15,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="account" target="1.8" />
       <module name="business" target="1.8" />
+      <module name="bussiness" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="order" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="spring-reactive" target="1.8" />
+      <module name="springcloud-eureka-seata" target="1.8" />
+      <module name="SpringCloud-Example" target="1.8" />
+      <module name="storage" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
