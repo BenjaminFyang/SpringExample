@@ -42,9 +42,7 @@ public class C01FunctionalProgramming101 {
     public static void main(String[] args) {
         List<Book> books1 = getMostExpensiveBooksByCategory();
         books1.forEach(System.out::println);
-
         System.out.printf("%n%n");
-
         List<Book> books2 = getMostExpensiveBooksByCategoryFunctional();
         books2.forEach(System.out::println);
     }
